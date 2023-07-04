@@ -1,0 +1,35 @@
+.error {
+  margin: 200px 56px;
+
+  .error__content {
+    margin: auto;
+    text-align: center;
+    color: #FF6060;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+
+    .error__content__h1 {
+      font-weight: 700;
+      font-size: 96px;
+      line-height: 137px;
+      margin-bottom: 11px;
+    }
+
+    .error__content__p{
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 26px;
+      margin-bottom: 133px;
+
+    }
+
+    .error__content__a {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      text-decoration-line: underline;
+      color: #FF6060;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@mixin typo{
+  font-family: 'Montserrat', sans-serif;
+}
+@mixin annonce-typo{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #FF6060;
+}

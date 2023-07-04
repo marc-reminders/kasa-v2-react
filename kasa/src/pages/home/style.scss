@@ -1,0 +1,31 @@
+.main__content {
+  padding: 20px;
+  .container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    row-gap: 20px;
+    padding: 0;
+
+  }
+
+}
+@media screen and (min-width: 767px) {
+  .main__content{
+    margin-bottom: 50px;
+    .container{
+      row-gap: 56px;
+      background: #F7F7F7;
+      border-radius: 25px;
+      padding: 50px 50px;
+
+    }
+  }
+
+
+}
+@media screen and (min-width: 1024px){
+  .main__content{
+    padding: 0 100px;
+  }
+}

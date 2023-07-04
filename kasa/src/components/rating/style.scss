@@ -1,0 +1,10 @@
+.star__content{
+  display: flex;
+  flex-direction: row;
+
+  .stars{
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+  }
+}

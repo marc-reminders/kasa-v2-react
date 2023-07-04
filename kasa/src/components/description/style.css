@@ -1,0 +1,17 @@
+.description {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #FF6060;
+}
+.description .descritpion__title {
+  font-size: 18px;
+  line-height: 26px;
+  color: #FF6060;
+}
+.description .description__location {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

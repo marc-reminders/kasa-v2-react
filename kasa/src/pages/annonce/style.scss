@@ -1,0 +1,223 @@
+.container {
+  padding: 20px;
+
+  .annonce {
+    .annonce__carousel {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+
+    .annonce__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+      .annonce__content__title-tags {
+        .annonce__title {
+          h1 {
+            font-size: 18px;
+            line-height: 26px;
+            text-align: start;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            color: #FF6060;
+          }
+
+          p {
+            font-size: 14px;
+            line-height: 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            color: #FF6060;
+          }
+        }
+
+        .annonce__tags {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          gap: 10px;
+          margin-top: 10px;
+
+        }
+      }
+
+      .annonce__content__rating-host {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 24px;
+
+        .annonce__rating {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+        }
+
+        .annonce__host {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+          align-items: center;
+
+          h2 {
+            max-width: 50px;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 17px;
+            text-align: right;
+            color: #FF6060;
+            margin-right: 10px;
+
+          }
+
+          img {
+            border-radius: 100%;
+            width: 32px;
+            height: 32px;
+          }
+
+        }
+
+      }
+    }
+
+    .annonce__dropdowns {
+      display: flex;
+      flex-direction: column;
+      margin-top: 5px;
+
+      .dropdown {
+        margin: 10px 0;
+      }
+
+    }
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .container {
+    padding: 20px 50px;
+    .annonce {
+      .annonce__content {
+        flex-direction: row;
+        .annonce__content__title-tags {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .annonce__tags {
+            .tag {
+              min-width: 115px;
+              border-radius: 10px;
+              font-size: 14px;
+              padding: 6px 40px;
+            }
+          }
+        }
+        .annonce__content__rating-host{
+          flex-direction: column-reverse;
+          justify-content: flex-end;
+          margin-top: 0;
+          .annonce__rating{
+            .star__content{
+              .stars{
+                width: 25px;
+                height: 25px;
+              }
+            }
+          }
+          .annonce__host{
+            margin-bottom: 20px;
+            gap: 20px;
+            h2{
+              font-size: 18px;
+              line-height: 27px;
+            }
+            img{
+              width: 64px;
+              height: 62px;
+            }
+
+          }
+        }
+
+      }
+
+      .annonce__dropdowns {
+        margin-top: 24px;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        gap: 76px;
+
+        .dropdown {
+          width: 576px;
+
+          .dropdown__visible {
+            padding: 13px 20px;
+            border-radius: 10px;
+
+            .dropdown__visible__title {
+              font-size: 18px;
+
+            }
+          }
+
+          .dropdown__toggle {
+            padding: 20px 40px;
+
+            .dropdown__toggle__text {
+              font-size: 18px;
+              line-height: 24px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 20px 100px;
+
+    .annonce {
+      .annonce__carousel {
+        margin-bottom: 30px;
+        .carousel{
+          .left-arrow, .right-arrow{
+            top: 40%;
+
+          }
+        }
+      }
+      .annonce__content {
+        .annonce__content__title-tags {
+          .annonce__title {
+            margin-bottom: 15px;
+
+            h1 {
+              font-size: 36px;
+              margin-bottom: 17px;
+
+            }
+
+            p {
+              font-size: 18px;
+            }
+
+          }
+        }
+      }
+
+    }
+  }
+
+}

@@ -1,0 +1,31 @@
+.main__content .about__container-dropdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+}
+
+@media screen and (min-width: 767px) {
+  .main__content .about__container-dropdown {
+    align-items: center;
+  }
+  .main__content .about__container-dropdown .dropdown {
+    max-width: 1023px;
+    width: 80%;
+  }
+  .main__content .about__container-dropdown .dropdown .dropdown__visible {
+    padding: 6px 18px;
+  }
+  .main__content .about__container-dropdown .dropdown .dropdown__visible .dropdown__visible__title {
+    font-size: 24px;
+  }
+  .main__content .about__container-dropdown .dropdown .dropdown__toggle {
+    padding: 30px 18px;
+  }
+  .main__content .about__container-dropdown .dropdown .dropdown__toggle .dropdown__toggle__text {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

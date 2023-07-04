@@ -1,0 +1,37 @@
+footer {
+  background-color: black;
+  padding: 62px 0;
+  width: 100%;
+  margin-top: auto;
+
+
+
+  .footer__container {
+    .footer__container__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+
+      svg {
+        width: 122px;
+        height: 40px;
+        object-fit: cover;
+        fill: black;
+
+      }
+
+      p {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 142.6%;
+        text-align: center;
+        color: #FFFFFF;
+      }
+    }
+  }
+
+}
